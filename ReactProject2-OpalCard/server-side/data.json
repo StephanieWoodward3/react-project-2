@@ -1,0 +1,59 @@
+[
+    {
+        "cardNumber": "3dcf0911-2cf2-4748-ac8d-e69fe8bafb2f",
+        "firstName":"Peter",
+        "lastName":"Parker",
+        "dobDay": "10",
+        "dobMonth":"Aug",
+        "dobYear": "2001",
+        "cardType":"Adult",
+        "street": "20 Ingram Street",
+        "suburb":"Forrest Hills",
+        "addressState":"NSW",
+        "postCode": "2000",
+        "cardBalance": "100"
+
+    },
+    {
+        "cardNumber": "d8166eae-8d5c-479d-b50a-c91cd64a6664",
+        "firstName":"Bruce",
+        "lastName":"Wayne",
+        "dobDay": "17",
+        "dobMonth":"Apr",
+        "dobYear": "1917",
+        "cardType":"Senior",
+        "street": "1007 Mountain Drive",
+        "suburb":"Gotham",
+        "addressState":"NSW",
+        "postCode": "2001",
+        "cardBalance": "100"
+    },
+    {
+        "cardNumber": "5765f6f4-1f32-45b7-ae71-d4d7021c0022",
+        "firstName":"Clark",
+        "lastName":"Kent",
+        "dobDay": "03",
+        "dobMonth":"May",
+        "dobYear": "1987",
+        "cardType":"Adult",
+        "street": "344 Clinton Street",
+        "suburb":"Metropolis",
+        "addressState":"NSW",
+        "postCode": "2002",
+        "cardBalance": "100"
+    },
+    {
+        "cardNumber": "5765f6f4-1f32-45b7-ae71-d4d7021c0022",
+        "firstName":"Billy",
+        "lastName":"Batson",
+        "dobDay": "13",
+        "dobMonth":"Jul",
+        "dobYear": "2011",
+        "cardType":"Child",
+        "street": "124 King Street",
+        "suburb":"Sydney",
+        "addressState":"NSW",
+        "postCode": "2003",
+        "cardBalance": "100"
+    }
+]

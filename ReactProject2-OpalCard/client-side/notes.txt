@@ -1,0 +1,32 @@
+Opal Cards
+- Top Ups
+- Add Card/Apply for Card
+- Delete Card - Lost/Stolen/Visitor
+- Update detail - top Ups/Change of name/change of address
+
+
+Type of Cards
+- Adult Card (>16)
+- Child Card (4-16)
+- Seniors/Pension Card (Verified with Seniors Card/Pension Card)
+- School Pass (4-18 still at school)
+
+
+Register Opal Card
+- name (first and last)
+- Age
+- Address
+- UUID for card number (generated server side)
+- Card Balance - automatically gets given $100 balance - stored on server side
+- Server to return whole object
+
+Tap on/off (update balance)
+- property currentStatus = tapOn || tapOff; - stored on server side
+- pass in the UUID with the currentStatus
+- $1 each tapOff - variable stored on Server Side
+- server to return whole object again with new balance
+
+#Considerations
+- sufficient funds >= $1
+- card number must be valid (return 404 if card not found)
+

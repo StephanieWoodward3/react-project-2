@@ -1,0 +1,100 @@
+Opal Cards
+- Top Ups
+- Add Card/Apply for Card
+- Delete Card - Lost/Stolen/Visitor
+- Update detail - top Ups/Change of name/change of address
+
+
+Type of Cards
+- Adult Card (>16)
+- Child Card (4-16)
+- Seniors/Pension Card (Verified with Seniors Card/Pension Card)
+- School Pass (4-18 still at school)
+
+
+Register Opal Card
+- name (first and last)
+- Age
+- Address
+- UUID for card number (generated server side)
+- Card Balance - automatically gets given $100 balance - stored on server side
+- Server to return whole object
+
+Tap on/off (update balance)
+- property currentStatus = tapOn || tapOff; - stored on server side
+- pass in the UUID with the currentStatus
+- $1 each tapOff - variable stored on Server Side
+- server to return whole object again with new balance
+
+#Considerations
+- sufficient funds >= $1
+- card number must be valid (return 404 if card not found)
+
+[
+    {
+        "firstName": "Selina",
+        "lastName":"Kyle",
+        "dobDay":"02",
+        "dobMonth": "02",
+        "dobYear": "1975",
+        "cardType": "Senior",
+        "street": "456 Kitten Drive",
+        "suburb": "Gotham",
+        "addressState": "NSW",
+        "postCode": "2004",
+        "balance":100
+    },
+    {
+        "firstName":"Peter",
+        "lastName":"Parker",
+        "dobDay": "10",
+        "dobMonth":"Aug",
+        "dobYear": "2001",
+        "cardType":"Adult",
+        "street": "20 Ingram Street",
+        "suburb":"Forrest Hills",
+        "addressState":"NSW",
+        "postCode": "2000",
+        "balance": 100
+
+    },
+    {
+        "firstName":"Bruce",
+        "lastName":"Wayne",
+        "dobDay": "17",
+        "dobMonth":"Apr",
+        "dobYear": "1917",
+        "cardType":"Senior",
+        "street": "1007 Mountain Drive",
+        "suburb":"Gotham",
+        "addressState":"NSW",
+        "postCode": "2001",
+        "balance": 100
+    },
+    {
+        "firstName":"Clark",
+        "lastName":"Kent",
+        "dobDay": "03",
+        "dobMonth":"May",
+        "dobYear": "1987",
+        "cardType":"Adult",
+        "street": "344 Clinton Street",
+        "suburb":"Metropolis",
+        "addressState":"NSW",
+        "postCode": "2002",
+        "balance": 100
+    },
+    {
+        "firstName":"Billy",
+        "lastName":"Batson",
+        "dobDay": "13",
+        "dobMonth":"Jul",
+        "dobYear": "2011",
+        "cardType":"Child",
+        "street": "124 King Street",
+        "suburb":"Sydney",
+        "addressState":"NSW",
+        "postCode": "2003",
+        "balance": 100
+    }
+]
